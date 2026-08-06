@@ -1,0 +1,6 @@
+laptops
+desktops
+monitors
+keyboards
+mice
+ram , sham , dev 
