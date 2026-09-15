@@ -1,44 +1,73 @@
 # Network Automation with Python
 
-A learning and practice repository for network automation using Python, with an emphasis on Cisco networking, device interaction, automation workflows, and DevNet-oriented concepts.
+A practical learning repository for automating network operations with Python, with a strong focus on Cisco infrastructure, device interaction, data collection, and repeatable automation workflows.
 
-## What this repository is for
+## Focus Areas
 
-The repository collects experiments, practice scripts, learning material, and network automation exercises built while developing practical automation skills.
-
-## Topics
-
-- Python fundamentals for network engineers
-- Network device automation
-- Cisco IOS automation
-- Device inventory handling
+- Python for network engineers
+- Cisco IOS / IOS-XE automation
 - SSH-based device interaction
-- Configuration and operational commands
-- Network data collection
-- Automation workflows
-- Cisco DevNet concepts
+- Netmiko and network APIs
+- Operational and configuration commands
+- Structured network data
+- Automation and error handling
+- Cisco DevNet-oriented workflows
 
-## Direction
+## Learning Path
 
-The learning path is moving from small Python scripts toward reliable automation systems:
+```text
+Python Fundamentals
+        ↓
+Networking Fundamentals
+        ↓
+Netmiko / Device APIs
+        ↓
+Structured Output
+        ↓
+Configuration Automation
+        ↓
+Ansible
+        ↓
+REST / Cisco APIs
+        ↓
+Testing + Parallel Operations
+        ↓
+Telemetry + Network Platforms
+```
 
-1. Python fundamentals
-2. Networking fundamentals
-3. Netmiko and device APIs
-4. Structured command output
-5. Configuration automation
-6. Ansible
-7. REST APIs and Cisco APIs
-8. Testing and error handling
-9. Parallel device operations
-10. Network monitoring and automation platforms
+## Getting Started
 
-## Future projects
+Clone the repository and install the dependencies used by the individual exercises.
 
-The longer-term direction is to combine network automation with telemetry, anomaly detection, security analytics, and infrastructure management.
+```bash
+git clone https://github.com/majordevbhargav/Network-Automation-With-Python.git
+cd Network-Automation-With-Python
+pip install -r requirements.txt
+```
+
+Some exercises may require access to a lab or authorized network device. Never hardcode production credentials.
+
+## Development Principles
+
+The goal is to move from one-off scripts toward automation that is repeatable, observable, safe, and easy to maintain.
+
+## Future Direction
+
+- Network telemetry and streaming data
+- Parallel device operations
+- Automated configuration validation
+- Cisco API integrations
+- Network anomaly detection
+- Security analytics
+- Infrastructure management platforms
+
+## Security
+
+Use lab or explicitly authorized infrastructure. Store credentials through environment variables, secure credential stores, or Ansible Vault rather than source files.
 
 ## Author
 
 **Dev Bhargav**
 
-GitHub: https://github.com/majordevbhargav
+- GitHub: https://github.com/majordevbhargav
+- LinkedIn: https://www.linkedin.com/in/devbhargav100
