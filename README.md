@@ -2,6 +2,8 @@
 
 > **Practical network engineering exercises covering Python, Netmiko, Cisco automation, APIs, and repeatable operational workflows.**
 
+![NETWORK AUTOMATION project banner](./assets/network-automation-banner.svg)
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Networking](https://img.shields.io/badge/focus-Cisco%20Networking-informational)
 ![Automation](https://img.shields.io/badge/automation-Netmiko%20%7C%20Ansible-green)
